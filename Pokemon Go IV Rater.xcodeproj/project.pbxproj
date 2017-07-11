@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AF8C2281E1CC807000E201C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8C2271E1CC807000E201C /* main.cpp */; };
+		1A57AA491F0BFD73003E5B5D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A57AA481F0BFD73003E5B5D /* main.cpp */; };
+		4AF8C2301E1CC8A5000E201C /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8C22E1E1CC8A5000E201C /* HashTable.cpp */; };
+		4AF8C2331E1CC925000E201C /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8C2311E1CC925000E201C /* LinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A57AA481F0BFD73003E5B5D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4AF8C2241E1CC807000E201C /* Pokemon Go IV Rater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pokemon Go IV Rater"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF8C2271E1CC807000E201C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4AF8C22E1E1CC8A5000E201C /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		4AF8C22F1E1CC8A5000E201C /* HashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
+		4AF8C2311E1CC925000E201C /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		4AF8C2321E1CC925000E201C /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		4AF8C2261E1CC807000E201C /* Pokemon Go IV Rater */ = {
 			isa = PBXGroup;
 			children = (
-				4AF8C2271E1CC807000E201C /* main.cpp */,
+				1A57AA481F0BFD73003E5B5D /* main.cpp */,
+				4AF8C22E1E1CC8A5000E201C /* HashTable.cpp */,
+				4AF8C22F1E1CC8A5000E201C /* HashTable.hpp */,
+				4AF8C2311E1CC925000E201C /* LinkedList.cpp */,
+				4AF8C2321E1CC925000E201C /* LinkedList.hpp */,
 			);
 			path = "Pokemon Go IV Rater";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF8C2281E1CC807000E201C /* main.cpp in Sources */,
+				4AF8C2301E1CC8A5000E201C /* HashTable.cpp in Sources */,
+				1A57AA491F0BFD73003E5B5D /* main.cpp in Sources */,
+				4AF8C2331E1CC925000E201C /* LinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				4AF8C22D1E1CC807000E201C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
